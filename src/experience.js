@@ -4,7 +4,7 @@ import GetString from './language';
 import { Row, Col, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-import { faPhp, faBootstrap, faAws, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import { faPhp, faBootstrap, faAws, faReact, faNodeJs, faSass } from '@fortawesome/free-brands-svg-icons';
 
 import TooEzzi from './images/tooezzi.gif';
 import CodeIgniter from './images/codeigniter.svg';
@@ -114,8 +114,9 @@ const Experience = ({ lang }) => {
                     <p className="mb-2"><small>Tecnologías usadas:</small></p>
                     <Row>
                         <Col className="d-flex flex-wrap align-items-center">
-                            <span className="brand-text">VB6</span>
-                            <span className="brand-text ml-4">MySQL</span>
+                            <FontAwesomeIcon icon={faReact} className="brand-icon" title="React" />
+                            <FontAwesomeIcon icon={faBootstrap} className="brand-icon ml-4" title="Bootstrap" />
+                            <FontAwesomeIcon icon={faSass} className="brand-icon ml-4" title="Sass" />
                         </Col>
                     </Row>
                 </Col>
