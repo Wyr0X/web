@@ -44,6 +44,10 @@ img {
     color: gray !important;
 }
 
+.nav-item {
+    width: 4rem;
+}
+
 .main-section {
     display: flex;
     flex-direction: column;
@@ -117,8 +121,8 @@ img {
 
 @media (min-width: 992px) {
     .my-nav {
-        width: 5rem;
-        max-width: 5rem;
+        width: 4rem;
+        max-width: 4rem;
         height: 100vh;
     }
 
