@@ -51,8 +51,7 @@ img {
 .main-section {
     display: flex;
     flex-direction: column;
-    padding: 10rem 5rem 10rem 5rem;
-    max-width: 90rem;
+    padding: 10rem 0 10rem 0;
     font-family: 'OpenSans', Arial, Arial, Helvetica, sans-serif;
     color: #678;
 }
@@ -99,6 +98,10 @@ img {
     white-space: nowrap;
 }
 
+.introduction {
+    min-width: 20rem;
+}
+
 *[data-title] {
     position: relative;
 }
@@ -128,6 +131,8 @@ img {
 
     .main-section {
         min-height: 100vh;
+        padding: 10rem 5rem 10rem 5rem;
+        max-width: 90rem;
     }
     
     *[data-title]:hover::after {
@@ -142,6 +147,10 @@ img {
         border-bottom-left-radius: 0;
         border-top-right-radius: 1rem;
         white-space: nowrap;
+    }
+
+    .introduction {
+        min-width: auto;
     }
 }
 

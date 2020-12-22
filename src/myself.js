@@ -17,7 +17,7 @@ const MySelf = ({ lang }) => {
                 <Col xs="auto" className="pl-5">
                     <Image className="my-picture" src={MePhoto} roundedCircle alt={ GetString(lang, 'photo_me_desc') } />
                 </Col>
-                <Col className="mt-5 mt-sm-0 ml-lg-5">
+                <Col className="introduction mt-5 mt-sm-0 ml-lg-5">
                     <p>{ GetString(lang, 'introduction1') }</p>
                     <p>{ GetString(lang, 'introduction2') }</p>
 
@@ -26,16 +26,16 @@ const MySelf = ({ lang }) => {
                             <a className="brand-icon" href="https://github.com/Wyr0X" target="_BLANK">
                                 <FontAwesomeIcon icon={faGithubSquare} />
                             </a>
-                            <a className="brand-icon ml-5" href={"https://www.linkedin.com/in/alexis-caraballo-7185061a2/?locale=" + GetString(lang, 'locale')} target="_BLANK">
+                            <a className="brand-icon ml-3 ml-5-lg" href={"https://www.linkedin.com/in/alexis-caraballo-7185061a2/?locale=" + GetString(lang, 'locale')} target="_BLANK">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
-                            <a className="brand-icon ml-5" href="mailto:alexiscaraballo96@gmail.com" target="_BLANK">
+                            <a className="brand-icon ml-3 ml-5-lg" href="mailto:alexiscaraballo96@gmail.com" target="_BLANK">
                                 <FontAwesomeIcon icon={faEnvelopeSquare} />
                             </a>
-                            <a className="brand-icon ml-5" href="https://www.facebook.com/WyroX" target="_BLANK">
+                            <a className="brand-icon ml-3 ml-5-lg" href="https://www.facebook.com/WyroX" target="_BLANK">
                                 <FontAwesomeIcon icon={faFacebookSquare} />
                             </a>
-                            <a className="brand-icon ml-5" href="https://twitter.com/wyroxrlz" target="_BLANK">
+                            <a className="brand-icon ml-3 ml-5-lg" href="https://twitter.com/wyroxrlz" target="_BLANK">
                                 <FontAwesomeIcon icon={faTwitterSquare} />
                             </a>
                         </Col>
